@@ -1,0 +1,7 @@
+.clock {
+    font-size: 10em;
+}
+
+.clock__text{
+  text-shadow: 10px 0 black;
+}

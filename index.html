@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Nicolás Serrano Arévalo" />
+    <title>THIS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="center">
+        <div class="js-clock clock">
+            <h3 class="clock__text" style="font-family: 'Do Hyeon', sans-serif;">00:00</h3>
+        </div>
+        <div class="js-name name" style="width: 40%; font-size: 40px; text-align: center; border: 0; color:black; background-color: rgba(255,255,255,0.7); font-family: 'Do Hyeon', sans-serif;"></div>
+        <div>
+            <form class="js-to-do to-do">
+                <input class="js-add-to-do to-do__add-to-do" placeholder="할일을 적으세요" type="text" style="background-color: rgba(0,0,0,0.7); text-align: center;"/>
+            </form>
+            <ul class="js-list list" style="font-family: 'Do Hyeon', sans-serif; border: 3px solid #ccc; background-color: rgba(0,0,0,0.7);"></ul>
+        </div>
+    </section>
+
+    <script src="script/bg.js"></script>
+    <script src="script/clock.js"></script>
+    <script src="script/greeting.js"></script>
+    <script src="script/toDo.js"></script>
+</body>
+</html>
